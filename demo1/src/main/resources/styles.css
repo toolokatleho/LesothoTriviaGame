@@ -1,0 +1,119 @@
+.top-bar {
+    -fx-background-color: #388e3c;
+    -fx-padding: 10px;
+    -fx-alignment: center;
+    -fx-border-radius: 10px;
+}
+.exit-button {
+    -fx-text-fill: white;
+    -fx-font-family:"Segoe UI", Arial, sans-serif;
+    -fx-font-weight: bold;
+    -fx-font-size: 16px;
+    -fx-background-color: #ff6347;
+    -fx-border-color: #ff6347;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+    -fx-padding: 10px 20px;
+    -fx-cursor: hand;
+}
+
+.exit-button:hover {
+    -fx-background-color: #d14836;
+    -fx-border-color: #d14836;
+}
+
+
+.stopwatch-label {
+    -fx-font-size: 20px;
+    -fx-text-fill: white;
+    -fx-alignment: left;
+}
+
+.points-label {
+    -fx-font-size: 20px;
+    -fx-text-fill: white;
+    -fx-alignment: baseline-right, top;
+}
+
+.media-box {
+    -fx-spacing: 20px;
+    -fx-alignment: center;
+    -fx-border-radius: 10px;
+    -fx-padding: 20px;
+    -fx-min-width: 400px;
+    -fx-min-height: 300px;
+}
+.question-label {
+     -fx-text-fill: black;
+     -fx-font-family:"Segoe UI", Arial, sans-serif;
+     -fx-font-weight: bold;
+     -fx-font-size: 16px;
+    -fx-padding: 20px;
+    -fx-alignment: center;
+}
+
+.options-box {
+    -fx-spacing: 10px;
+    -fx-alignment: center;
+}
+
+.option-button {
+    -fx-font-size: 16px;
+    -fx-padding: 10px 20px;
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white;
+    -fx-border-radius: 5px;
+    -fx-min-width: 150px;
+    -fx-max-width: 200px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.4), 10, 0.5, 0, 0);
+}
+
+.option-button:hover {
+    -fx-background-color: #006400;
+}
+
+.option-button:pressed {
+    -fx-background-color: #006400;
+}
+
+
+.option-button:hover {
+    -fx-background-color: #0056b3;
+}
+
+
+.correct-answer {
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white;
+}
+
+.wrong-answer {
+    -fx-background-color: #FF5722;
+    -fx-text-fill: white;
+}
+.media-image {
+    -fx-fit-width: 200px;
+    -fx-fit-height: 100px;
+}
+
+.media-video {
+    -fx-fit-width: 400px;
+    -fx-fit-height: 300px;
+}
+/* styles.css */
+
+.media-control-button {
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+    -fx-font-size: 1.2em;
+    -fx-padding: 5px 10px;
+    -fx-border-color: white;
+    -fx-border-width: 2px;
+    -fx-border-radius: 5px;
+    -fx-cursor: hand;
+}
+
+.media-control-button:hover {
+    -fx-background-color: white;
+    -fx-text-fill: black;
+}
